@@ -23,6 +23,7 @@ More information could be found here:
 - Virtual Machine Instance - [Google Compute Engine](https://cloud.google.com/compute)
 - Serverless Data Warehouse - [BigQuery](https://cloud.google.com/bigquery/)
 - Data visualization - [Looker Studio](https://lookerstudio.google.com/)
+- Diagramming application - [Lucidchart](https://lucid.app)
 
 ### Data Pipeline Architecture
 ![Architecture](https://github.com/umidmirzaev/uber/blob/main/images/architecture.jpg)
@@ -40,13 +41,13 @@ More information could be found here:
 
 ### Steps
 
-1. Accessing the 2016 Yellow Taxi Trip Data using the Socrata Open Data API at https://data.cityofnewyork.us/Transportation/2016-Yellow-Taxi-Trip-Data/k67s-dv2t:
+1. Accessing the 2016 Yellow Taxi Trip Data using the [Socrata Open Data API](https://data.cityofnewyork.us/Transportation/2016-Yellow-Taxi-Trip-Data/k67s-dv2t):
   - Create an App Token in the Developer settings.
   - Use the actual dataset ID from the URL.
   - Connect to the API, authenticate the client, and retrieve the data (you can use Jupyter Notebook).
 
 2. Dimension Modeling:
-  - Create a new blank document in Lucid Chart at https://lucid.app.
+  - Create a new blank document in Lucid Chart.
   - Use Lucid Chart to convert the flat data into the STAR data model structure with fact and dimensions tables.
   - Prepare the transformation code for dimension modeling (you can use Jupyter Notebook).
 
@@ -70,7 +71,7 @@ More information could be found here:
     - `sudo pip3 install pandas`
   
 5. Installing Mage in a virtual machine: 
-  - Go to https://www.mage.ai, and install Mage using pip with the command `sudo pip3 install mage-ai`. 
+  - Install Mage using pip with the command `sudo pip3 install mage-ai`. 
   - Create a new project with the command `mage start demo_project` with your own project name. 
   - Open the network interface of the virtual machine, create a new firewall rule to accept requests from port 6789 (Mage), and specify the appropriate IP ranges and TCP port number. 
   - Access Mage by entering the external IP address of the network interface in a browser, followed by port number 6789. 
