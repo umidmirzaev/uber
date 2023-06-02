@@ -1,6 +1,9 @@
 # uber
 
-![logo]()
+![logo](https://github.com/umidmirzaev/uber/blob/main/images/Uber_logo_2018-3168334167)
+
+![logo](https://github.com/umidmirzaev/uber/blob/main/images/uber_app_icon-1024x1024-325530812)
+
 
 ## Description
 
@@ -27,7 +30,7 @@ More information could be found here:
 - Data visualization - [Looker Studio](https://lookerstudio.google.com/)
 
 ### Data Pipeline Architecture
-![Architecture]()
+![Architecture](https://github.com/umidmirzaev/uber/blob/main/images/architecture.jpg)
 
 ### Final Result
 ![Dashboard]()
