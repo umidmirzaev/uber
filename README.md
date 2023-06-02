@@ -11,8 +11,8 @@ This project focuses on building a robust data pipeline and using various techno
 The dataset used in this project is sourced from NYC OpenData and contains trip records from yellow taxis in NYC for the period of January to June 2016. These records are submitted by Technology Service Providers (TSPs), including Uber, Lyft, and others, operating in New York City. The dataset includes information such as pick-up and drop-off dates/times, locations, trip distances, fares, rate types, payment types, and passenger counts. 
 
 More information could be found here: 
-- Website: https://data.cityofnewyork.us/Transportation/2016-Yellow-Taxi-Trip-Data/k67s-dv2t
-- Additional information about the API connection: https://dev.socrata.com/foundry/data.cityofnewyork.us/uacg-pexx
+- [Website](https://data.cityofnewyork.us/Transportation/2016-Yellow-Taxi-Trip-Data/k67s-dv2t)
+- [Additional information about the API connection](https://dev.socrata.com/foundry/data.cityofnewyork.us/uacg-pexx)
 
 ### Tools & Technologies
 
@@ -36,12 +36,12 @@ More information could be found here:
 ### Prerequisites
 
 - Create a GCP (Google Cloud Platform) account.
-- Register a profile on NYC Open Data platform (https://data.cityofnewyork.us).
+- Register a profile on [NYC Open Data platform](https://data.cityofnewyork.us).
 
 
 ### Steps
 
-1. Accessing the 2016 Yellow Taxi Trip Data using the [Socrata Open Data API](https://data.cityofnewyork.us/Transportation/2016-Yellow-Taxi-Trip-Data/k67s-dv2t):
+1. Accessing the [2016 Yellow Taxi Trip Data](https://data.cityofnewyork.us/Transportation/2016-Yellow-Taxi-Trip-Data/k67s-dv2t) using the Socrata Open Data API:
   - Create an App Token in the Developer settings.
   - Use the actual dataset ID from the URL.
   - Connect to the API, authenticate the client, and retrieve the data (you can use Jupyter Notebook).
@@ -94,6 +94,7 @@ More information could be found here:
   - Try running the exporter block again to load the data into BigQuery.
 
 8. Create an analytical layer by joining tables in BigQuery.
+
 9. Create a dashboard in Looker Studio:
   - Open Looker Studio and create a blank report.
   - Connect to your Google BigQuery project using the BigQuery connector in Looker.
