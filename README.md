@@ -1,9 +1,6 @@
 # uber
 
-![logo](https://github.com/umidmirzaev/uber/blob/main/images/Uber_logo_2018-3168334167)
-
-![logo](https://github.com/umidmirzaev/uber/blob/main/images/uber_app_icon-1024x1024-325530812)
-
+![logo](https://github.com/umidmirzaev/uber/blob/main/images/uber_app_icon-1024x1024-325530812.png)
 
 ## Description
 
