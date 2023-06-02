@@ -96,7 +96,7 @@ More information could be found here:
        - `sudo pip3 install google-cloud-bigquery`
   - Try running the exporter block again to load the data into BigQuery.
 
-8. **Creating an analytical layer by joining tables in BigQuery.**
+8. **Creating an analytical layer by [joining tables](https://github.com/umidmirzaev/uber/blob/main/SQL/analytical-layer.sql) in BigQuery.**
 
 9. **Creating a dashboard in Looker Studio:**
   - Open Looker Studio and create a blank report.
