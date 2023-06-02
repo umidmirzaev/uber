@@ -1,7 +1,5 @@
 # uber
 
-![logo](https://github.com/umidmirzaev/uber/blob/main/images/uber_app_icon-1024x1024-325530812.png)
-
 ## Description
 
 ### Objective
