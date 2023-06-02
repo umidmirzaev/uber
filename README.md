@@ -1,4 +1,4 @@
-# uber
+# Data Engineering GCP Project
 
 ## Description
 
@@ -28,7 +28,7 @@ More information could be found here:
 ![Architecture](https://github.com/umidmirzaev/uber/blob/main/images/architecture.jpg)
 
 ### Final Result
-![Dashboard]()
+![Dashboard](https://github.com/umidmirzaev/uber/blob/main/images/Dashboard.png)
 
 ## Setup
 
