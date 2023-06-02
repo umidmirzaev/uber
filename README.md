@@ -80,12 +80,12 @@ More information could be found here:
   - Access Mage by entering the external IP address of the network interface in a browser, followed by port number 6789. 
 
 6. **Loading and transforming data in Mage:** 
-  - Create a data loader block "load_uber_data" by selecting "New" -> "Standard Batch" -> "Data loader" -> "Python" -> "API" and provide a file URL from Google Cloud Storage. 
-  - To transform the data in Mage, create a transformation block by selecting "Transformer" -> "Python" -> "Generic (no template)", name it as "uber_transformation," and copy the transformation code into the block after loading the data.
+  - Create a data loader block ["load_uber_data"](https://github.com/umidmirzaev/uber/blob/main/mage-files/extract.py) by selecting "New" -> "Standard Batch" -> "Data loader" -> "Python" -> "API" and provide a file URL from Google Cloud Storage. 
+  - To transform the data in Mage, create a [transformation block](https://github.com/umidmirzaev/uber/blob/main/mage-files/transform.py) by selecting "Transformer" -> "Python" -> "Generic (no template)", name it as "uber_transformation," and copy the transformation code into the block after loading the data.
 
 7. **Loading the data from the dataframes into BigQuery:**
   - Make sure you add additional code to the existing transformation block to transform the tables into dictionaries.
-  - Create a data exporter block in Mage: Data exporter -> Python -> Google BigQuery. Name the block "uber_big_query_load".
+  - Create a [data exporter block](https://github.com/umidmirzaev/uber/blob/main/mage-files/export.py) in Mage: Data exporter -> Python -> Google BigQuery. Name the block "uber_big_query_load".
   - In Google Cloud, go to API & Services and navigate to Credentials. Create a new Service Account with BigQuery admin role permissions. Generate a JSON key file and save it on your computer.
   - Go back to Mage and open the `io_config.yaml` file. List all the values available in your saved JSON file using their corresponding keys under `GOOGLE_SERVICE_ACC_KEY`.
   - Open BigQuery, click on "View actions" in your project, create a dataset, and copy the project name and dataset name.
