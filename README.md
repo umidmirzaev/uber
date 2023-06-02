@@ -28,7 +28,7 @@ More information could be found here:
 ![Architecture](https://github.com/umidmirzaev/uber/blob/main/images/architecture.jpg)
 
 ### Final Result
-![Dashboard](https://github.com/umidmirzaev/uber/blob/main/images/Dashboard.png)
+![Dashboard](https://github.com/umidmirzaev/uber/blob/main/images/Uber_report_page.jpg)
  
 ## Setup
 
