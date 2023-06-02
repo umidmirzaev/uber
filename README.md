@@ -28,6 +28,9 @@ More information could be found here:
 ### Data Pipeline Architecture
 ![Architecture](https://github.com/umidmirzaev/uber/blob/main/images/architecture.jpg)
 
+### Data Model 
+![Model](https://github.com/umidmirzaev/uber/blob/main/images/Uber_data_model.jpeg)
+
 ### Final Result
 ![Dashboard](https://github.com/umidmirzaev/uber/blob/main/images/Uber_report_page.jpg)
  
