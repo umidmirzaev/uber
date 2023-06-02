@@ -29,7 +29,7 @@ More information could be found here:
 
 ### Final Result
 ![Dashboard](https://github.com/umidmirzaev/uber/blob/main/images/Dashboard.png)
-
+ 
 ## Setup
 
 ### Prerequisites
