@@ -100,5 +100,6 @@ More information could be found here:
 
 9. **Creating a dashboard in Looker Studio:**
   - Open Looker Studio and create a blank report.
-  - Connect to your Google BigQuery project using the BigQuery connector in Looker.
-  
+  - Connect to your Google BigQuery project using the BigQuery connector in Looker. 
+
+  (test)
